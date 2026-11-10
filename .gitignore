@@ -1,0 +1,10 @@
+# Foundry
+out/
+cache/
+broadcast/*/31337/
+# Node
+node_modules/
+# Secrets: never commit private keys or RPC keys
+.env
+.env.*
+!.env.example
